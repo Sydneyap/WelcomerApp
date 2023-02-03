@@ -10,7 +10,7 @@ const firebaseConfig = {
   storageBucket: "welcomer-622.appspot.com",
   messagingSenderId: "243775247254",
   appId: "1:243775247254:web:91085cb7331b43b90543b7"
-};
+}
 
 initializeApp(firebaseConfig)
 
@@ -18,7 +18,6 @@ const db = getFirestore()
 
 const colRef = collection(db, 'User')
 
-getDocs(colRef)
-  .then((snapshot) => {
+getDocs(colRef).then((snapshot) => {
     console.log(snapshot.docs)
   })
