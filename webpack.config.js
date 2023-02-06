@@ -14,6 +14,7 @@ module.exports = {
     //Needs to get absolute path not relative
     filename: 'bundle.js'
   },
+  devtool: 'eval-source-map',
   watch: true
   //When webpack run, it will watch for changes in index.js
   //Spits out bundle into bundle.js
