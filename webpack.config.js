@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 //core node module
 module.exports = {
   //export object from file
